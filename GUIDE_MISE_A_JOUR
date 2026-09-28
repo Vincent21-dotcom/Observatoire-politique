@@ -1,0 +1,56 @@
+# Mettre à jour la V2 sur GitHub
+
+## Principe
+Votre application Streamlit existe déjà. Il ne faut ni supprimer le dépôt GitHub ni créer une nouvelle application Streamlit.
+
+Il suffit de mettre à jour les fichiers du dépôt existant.
+
+## 1. Décompresser l'archive
+Décompressez `observatoire_politique_v2_complete.zip` sur votre ordinateur.
+
+## 2. Ouvrir le dépôt GitHub
+Ouvrez le dépôt utilisé par votre application Streamlit.
+
+## 3. Remplacer `app.py`
+1. Cliquez sur `app.py`.
+2. Cliquez sur l'icône crayon `Edit this file`.
+3. Dans l'éditeur : Ctrl+A puis Suppr.
+4. Ouvrez le nouveau `app.py` téléchargé.
+5. Copiez tout son contenu et collez-le dans GitHub.
+6. Cliquez sur `Commit changes...`.
+7. Conservez l'option de commit direct sur la branche principale, puis validez.
+
+## 4. Remplacer `requirements.txt`
+Répétez exactement la même opération avec `requirements.txt`.
+
+## 5. Remplacer `README.md`
+Répétez exactement la même opération avec `README.md`.
+
+## 6. `data.json`
+La V2 utilise actuellement la même base pilote de 30 propositions. Vous pouvez donc laisser votre `data.json` actuel si vous n'y avez apporté aucune modification.
+Si vous souhaitez repartir exactement de la version fournie, remplacez-le de la même manière.
+
+## 7. Attendre Streamlit
+Une fois les commits enregistrés, Streamlit Community Cloud détecte normalement les changements et redéploie l'application.
+
+## 8. Vérifications à faire
+Vérifiez successivement :
+- Accueil ;
+- Programmes ;
+- Thèmes ;
+- Acteurs ;
+- Comparer ;
+- Évolutions ;
+- Sources & données ;
+- Méthodologie.
+
+Testez aussi :
+- un lien vers une source ;
+- une recherche ;
+- un filtre ;
+- l'export CSV ;
+- l'affichage sur smartphone.
+
+## 9. Si Streamlit affiche une erreur
+Ne modifiez pas plusieurs choses au hasard.
+Copiez le message d'erreur ou faites une capture de l'écran Streamlit : l'erreur indique généralement le fichier et la ligne concernés.
