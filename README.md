@@ -1,33 +1,18 @@
+[README.md](https://github.com/user-attachments/files/32756090/README.md)
+# Observatoire politique — V2 complète
 
-# Observatoire des programmes et positions politiques — prototype
+Application Streamlit expérimentale permettant d'explorer des programmes et positions politiques à partir de données sourcées.
 
-Première application Streamlit construite à partir d'une base pilote de 30 propositions.
+## Principes
+- base pilote non exhaustive ;
+- source accessible pour chaque proposition ;
+- distinction explicite entre corpus historiques et futurs programmes ;
+- aucun score, classement ou recommandation politique ;
+- graphiques descriptifs de la base uniquement ;
+- absence de donnée ≠ absence de position.
 
-## Contenu
-
-- `app.py` : application Streamlit
-- `data.json` : base pilote
-- `requirements.txt` : dépendances Python
-
-## Lancer l'application
-
-Dans un terminal placé dans ce dossier :
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-## Pages de la V1
-
-- Accueil
-- Programmes
-- Thèmes
-- Comparer
-- Sources & méthodologie
-
-## Limites actuelles
-
-Cette base n'est pas exhaustive et ne constitue pas un état définitif des programmes 2027.
-Les données historiques 2022/2024 sont conservées comme telles.
-Les fonctions de veille automatique, évolutions, doublons et interface d'administration seront ajoutées ensuite.
+## Fichiers
+- `app.py` : application ;
+- `data.json` : base pilote ;
+- `requirements.txt` : dépendances ;
+- `GUIDE_MISE_A_JOUR.md` : procédure de mise à jour via GitHub + Streamlit.
