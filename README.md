@@ -1,18 +1,16 @@
-[README.md](https://github.com/user-attachments/files/32756090/README.md)
-# Observatoire politique — V2 complète
+[README.md](https://github.com/user-attachments/files/32756429/README.md)
+# Observatoire politique — V2.1
 
-Application Streamlit expérimentale permettant d'explorer des programmes et positions politiques à partir de données sourcées.
+Cette version améliore l'ergonomie, la pédagogie et la séparation des usages.
 
-## Principes
-- base pilote non exhaustive ;
-- source accessible pour chaque proposition ;
-- distinction explicite entre corpus historiques et futurs programmes ;
-- aucun score, classement ou recommandation politique ;
-- graphiques descriptifs de la base uniquement ;
-- absence de donnée ≠ absence de position.
+## Nouveautés principales
+- **Programmes** : entrée par acteur, avec une fiche repère visuelle.
+- **Thèmes** : entrée par sujet pour voir les positions documentées de plusieurs acteurs.
+- **Évolutions** : lecture visuelle **Avant → Après**.
+- **Actualités** : page prête pour actualités illustrées, agenda et mises à jour de l'observatoire.
+- Une courte explication figure en haut de chaque page.
+- Les graphiques utilisent des barres horizontales avec libellés complets.
+- Les détails techniques sont plus discrets.
+- L'interface s'adapte aux écrans mobiles.
 
-## Fichiers
-- `app.py` : application ;
-- `data.json` : base pilote ;
-- `requirements.txt` : dépendances ;
-- `GUIDE_MISE_A_JOUR.md` : procédure de mise à jour via GitHub + Streamlit.
+Les rubriques Actualités, Agenda et Évolutions sont volontairement vides dans cette version tant qu'elles ne sont pas alimentées par des données sourcées et validées.
